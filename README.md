@@ -7,6 +7,6 @@ To make a script that runs daily:
 
 type crontab -e into the command line and add this line to the file:
 
-0 13  * * * sh ~location of your scrapy.sh file
+0 13  * * * sh ~'location of your scrapy.sh file'
 
 This says that ever day at hour 13 (1pm, relative to your local machine time), run the scrapy.sh script.
